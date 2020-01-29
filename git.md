@@ -19,3 +19,8 @@ Brach delete branches
 ```bash
 git branch | grep '^feat/*' | xargs git branch -D
 ```
+
+Show graph of all branches
+```bash
+git log --graph --pretty=oneline --abbrev-commit --all
+```

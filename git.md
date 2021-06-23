@@ -15,7 +15,7 @@ Rename branch
 git branch -m newname
 ```
 
-Brach delete branches
+Batch delete branches
 ```bash
 git branch | grep '^feat/*' | xargs git branch -D
 ```
